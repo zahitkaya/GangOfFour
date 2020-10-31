@@ -9,7 +9,7 @@ public class GourmetCheeseFactoryTest {
     public void testCreatePizza() throws Exception {
         BaseToppingFactory baseToppingFactory;
         BaseCheeseFactory baseCheeseFactory = new GourmetCheeseFactory();
-        Cheese cheese = baseCheeseFactory.createCheese("tulum");
+        Cheese cheese = baseCheeseFactory.createCheese("ezine");
     }
 
 }
