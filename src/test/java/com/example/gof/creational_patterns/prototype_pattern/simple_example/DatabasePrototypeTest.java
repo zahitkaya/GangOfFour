@@ -13,10 +13,10 @@ class DatabasePrototypeTest {
 
         try {
             DatabasePrototype oracle= (DatabasePrototype) databasePrototype.clone();
-            System.out.println(oracle.toString()); //DatabasePrototype{corporate='IBM', name='DB2', port=8888}
             oracle.setCorporate("Oracle");
             oracle.setName("oracle");
             oracle.setPort(5555);
+            System.out.println(oracle.toString()); //DatabasePrototype{corporate='IBM', name='DB2', port=8888}
             System.out.println(oracle.toString());//DatabasePrototype{corporate='Oracle', name='oracle', port=5555}
         } catch (CloneNotSupportedException e) {
             e.printStackTrace();
