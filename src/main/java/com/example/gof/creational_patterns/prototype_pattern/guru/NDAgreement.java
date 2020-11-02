@@ -1,4 +1,4 @@
-package com.example.gof.creational_patterns.prototype_pattern;
+package com.example.gof.creational_patterns.prototype_pattern.guru;
 
 public class NDAgreement extends PrototypeCapableDocument {
     private AuthorizedSignatory authorizedSignatory;

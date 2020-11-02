@@ -1,4 +1,4 @@
-package com.example.gof.creational_patterns.prototype_pattern;
+package com.example.gof.creational_patterns.prototype_pattern.guru;
 
 public class DocumentPrototypeManager {
     private static java.util.Map<String, PrototypeCapableDocument> prototypes = new java.util.HashMap<String, PrototypeCapableDocument>();

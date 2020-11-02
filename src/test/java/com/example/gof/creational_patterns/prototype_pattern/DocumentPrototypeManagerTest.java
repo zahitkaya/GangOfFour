@@ -1,8 +1,8 @@
 package com.example.gof.creational_patterns.prototype_pattern;
 
+import com.example.gof.creational_patterns.prototype_pattern.guru.DocumentPrototypeManager;
+import com.example.gof.creational_patterns.prototype_pattern.guru.PrototypeCapableDocument;
 import org.junit.jupiter.api.Test;
-
-import static org.junit.jupiter.api.Assertions.*;
 
 class DocumentPrototypeManagerTest {
 
