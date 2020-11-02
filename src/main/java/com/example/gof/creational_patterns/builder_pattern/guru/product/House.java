@@ -1,4 +1,4 @@
-package com.example.gof.creational_patterns.builder_pattern.product;
+package com.example.gof.creational_patterns.builder_pattern.guru.product;
 
 public class House {
     private String foundation;

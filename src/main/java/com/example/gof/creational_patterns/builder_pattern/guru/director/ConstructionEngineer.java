@@ -1,7 +1,7 @@
-package com.example.gof.creational_patterns.builder_pattern.director;
+package com.example.gof.creational_patterns.builder_pattern.guru.director;
 
-import com.example.gof.creational_patterns.builder_pattern.builders.HouseBuilder;
-import com.example.gof.creational_patterns.builder_pattern.product.House;
+import com.example.gof.creational_patterns.builder_pattern.guru.builders.HouseBuilder;
+import com.example.gof.creational_patterns.builder_pattern.guru.product.House;
 
 public class ConstructionEngineer {
     private HouseBuilder houseBuilder;

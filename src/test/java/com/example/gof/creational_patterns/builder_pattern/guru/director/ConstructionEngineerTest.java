@@ -1,10 +1,10 @@
-package com.example.gof.creational_patterns.builder_pattern.director;
+package com.example.gof.creational_patterns.builder_pattern.guru.director;
 
 
-import com.example.gof.creational_patterns.builder_pattern.builders.ConcreteHouseBuilder;
-import com.example.gof.creational_patterns.builder_pattern.builders.HouseBuilder;
-import com.example.gof.creational_patterns.builder_pattern.builders.PrefabricatedHouseBuilder;
-import com.example.gof.creational_patterns.builder_pattern.product.House;
+import com.example.gof.creational_patterns.builder_pattern.guru.builders.ConcreteHouseBuilder;
+import com.example.gof.creational_patterns.builder_pattern.guru.builders.HouseBuilder;
+import com.example.gof.creational_patterns.builder_pattern.guru.builders.PrefabricatedHouseBuilder;
+import com.example.gof.creational_patterns.builder_pattern.guru.product.House;
 import org.junit.jupiter.api.Test;
 
 public class ConstructionEngineerTest {

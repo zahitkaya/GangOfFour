@@ -1,6 +1,6 @@
-package com.example.gof.creational_patterns.builder_pattern.builders;
+package com.example.gof.creational_patterns.builder_pattern.guru.builders;
 
-import com.example.gof.creational_patterns.builder_pattern.product.House;
+import com.example.gof.creational_patterns.builder_pattern.guru.product.House;
 
 public class PrefabricatedHouseBuilder implements HouseBuilder {
     private House house;
