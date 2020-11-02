@@ -1,9 +1,7 @@
-package com.example.gof.creational_patterns.factory_pattern.factory;
+package com.example.gof.creational_patterns.factory_pattern.guru.factory;
 
-import com.example.gof.creational_patterns.factory_pattern.pizza.Pizza;
+import com.example.gof.creational_patterns.factory_pattern.guru.pizza.Pizza;
 import org.junit.jupiter.api.Test;
-
-import static org.junit.jupiter.api.Assertions.*;
 
 class PizzaFactoryTest {
 

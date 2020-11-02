@@ -1,9 +1,9 @@
-package com.example.gof.creational_patterns.factory_pattern.factory;
+package com.example.gof.creational_patterns.factory_pattern.guru.factory;
 
-import com.example.gof.creational_patterns.factory_pattern.pizza.CheesePizza;
-import com.example.gof.creational_patterns.factory_pattern.pizza.PepperoniPizza;
-import com.example.gof.creational_patterns.factory_pattern.pizza.Pizza;
-import com.example.gof.creational_patterns.factory_pattern.pizza.VeggiePizza;
+import com.example.gof.creational_patterns.factory_pattern.guru.pizza.CheesePizza;
+import com.example.gof.creational_patterns.factory_pattern.guru.pizza.PepperoniPizza;
+import com.example.gof.creational_patterns.factory_pattern.guru.pizza.Pizza;
+import com.example.gof.creational_patterns.factory_pattern.guru.pizza.VeggiePizza;
 
 public class PizzaFactory extends BasePizzaFactory{
     @Override

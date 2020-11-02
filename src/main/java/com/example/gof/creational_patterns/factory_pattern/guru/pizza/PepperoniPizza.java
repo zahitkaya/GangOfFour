@@ -1,4 +1,4 @@
-package com.example.gof.creational_patterns.factory_pattern.pizza;
+package com.example.gof.creational_patterns.factory_pattern.guru.pizza;
 
 public class PepperoniPizza extends Pizza {
     @Override
