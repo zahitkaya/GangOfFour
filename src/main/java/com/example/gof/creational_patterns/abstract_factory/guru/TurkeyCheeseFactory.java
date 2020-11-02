@@ -1,9 +1,9 @@
-package com.example.gof.creational_patterns.abstract_factory;
+package com.example.gof.creational_patterns.abstract_factory.guru;
 
-import com.example.gof.creational_patterns.abstract_factory.product.Cheese;
-import com.example.gof.creational_patterns.abstract_factory.product.EzineCheese;
-import com.example.gof.creational_patterns.abstract_factory.product.GoatCheese;
-import com.example.gof.creational_patterns.abstract_factory.product.TulumCheese;
+import com.example.gof.creational_patterns.abstract_factory.guru.product.Cheese;
+import com.example.gof.creational_patterns.abstract_factory.guru.product.EzineCheese;
+import com.example.gof.creational_patterns.abstract_factory.guru.product.GoatCheese;
+import com.example.gof.creational_patterns.abstract_factory.guru.product.TulumCheese;
 
 public class TurkeyCheeseFactory extends BaseCheeseFactory {
     @Override

@@ -1,6 +1,6 @@
-package com.example.gof.creational_patterns.abstract_factory.product;
+package com.example.gof.creational_patterns.abstract_factory.guru.product;
 
-import com.example.gof.creational_patterns.abstract_factory.BaseToppingFactory;
+import com.example.gof.creational_patterns.abstract_factory.guru.BaseToppingFactory;
 
 public class GoatCheese extends Cheese {
     BaseToppingFactory baseToppingFactory;

@@ -1,4 +1,4 @@
-package com.example.gof.creational_patterns.abstract_factory.product;
+package com.example.gof.creational_patterns.abstract_factory.guru.product;
 
 public abstract class Cheese {
     public abstract void addIngredients();

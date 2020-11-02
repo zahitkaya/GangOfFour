@@ -1,4 +1,4 @@
-package com.example.gof.creational_patterns.abstract_factory.topping;
+package com.example.gof.creational_patterns.abstract_factory.guru.topping;
 
 public class CowMilk implements IMilk {
     public CowMilk() {
