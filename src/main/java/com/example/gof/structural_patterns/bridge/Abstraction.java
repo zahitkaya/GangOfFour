@@ -4,7 +4,7 @@ public class Abstraction {
     Bridge bridge;
 
     public Abstraction(Bridge Implementation) {
-        bridge = Implementation;
+        bridge = Implementation; //Köprünün kurulduğu kısım
     }
 
     public String Operation() {
