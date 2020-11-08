@@ -33,10 +33,10 @@ class EmployeeTest {
         System.out.println(CEO);
 
         for (Employee headEmployee : CEO.getSubordinates()) {
-            System.out.println(headEmployee);
+            System.out.println(headEmployee +" Müdürler");
 
             for (Employee employee : headEmployee.getSubordinates()) {
-                System.out.println(employee);
+                System.out.println(employee +" En alttakiler");
             }
         }
     }
