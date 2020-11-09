@@ -2,8 +2,6 @@ package com.example.gof.behavioral_patterns.memento;
 
 import org.junit.jupiter.api.Test;
 
-import static org.junit.jupiter.api.Assertions.*;
-
 class MementoTest {
 
     @Test
@@ -24,7 +22,7 @@ class MementoTest {
         originator.getStateFromMemento(careTaker.get(0));
         System.out.println("First saved State: " + originator.getState());//State 2 döner
         originator.getStateFromMemento(careTaker.get(1));
-        System.out.println("Second saved State: " + originator.getState());//State 2 döner.
+        System.out.println("Second saved State: " + originator.getState());//State 3 döner.
     }
 
 }

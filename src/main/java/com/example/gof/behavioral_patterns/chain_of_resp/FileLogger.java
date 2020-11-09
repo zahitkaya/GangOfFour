@@ -1,6 +1,6 @@
 package com.example.gof.behavioral_patterns.chain_of_resp;
 
-public class FileLogger extends AbstractLogger {
+public class    FileLogger extends AbstractLogger {
 
     public FileLogger(int level){
         this.level = level;

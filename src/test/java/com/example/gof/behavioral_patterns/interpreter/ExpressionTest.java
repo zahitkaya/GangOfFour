@@ -2,8 +2,6 @@ package com.example.gof.behavioral_patterns.interpreter;
 
 import org.junit.jupiter.api.Test;
 
-import static org.junit.jupiter.api.Assertions.*;
-
 class ExpressionTest {
     //Rule: Robert and John are male
     public static Expression getMaleExpression(){
@@ -26,6 +24,7 @@ class ExpressionTest {
 
         System.out.println("John is male? " + isMale.interpret("John"));
         System.out.println("Julie is a married women? " + isMarriedWoman.interpret("Married Julie"));
+
 
     }
 }
